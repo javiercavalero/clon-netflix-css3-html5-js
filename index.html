@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<script src="https://kit.fontawesome.com/07d44ae06e.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/07d44ae06e.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="css/estilos.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap"
@@ -45,7 +48,38 @@
           <button role="button" class="boton">
             <i class="fa-solid fa-play"></i> Reproducir
           </button>
-          <button role="button" class="boton"><i class="fa-solid fa-circle-info"></i>Más información</button>
+          <button role="button" class="boton">
+            <i class="fa-solid fa-circle-info"></i>Más información
+          </button>
+        </div>
+      </div>
+      <div class="peliculas-recomendadas contenedor">
+        <div class="contenedor-titulo-controles">
+          <h3>Películas recomendadas</h3>
+          <div class="indicadores"></div>
+        </div>
+        <div class="contenedor-principal">
+          <button role="button" id="flecha-izquierda" class="flecha-izquierda">
+            <i class="fa-solid fa-angle-left"></i>
+          </button>
+
+          <div class="contenedor-carousel">
+            <div class="carousel">
+              <div class="pelicula">
+                <a href="#"><img src="./img/1.png" alt="imagen 1" /></a>
+                <a href="#"><img src="./img/2.png" alt="imagen 2" /></a>
+                <a href="#"><img src="./img/3.png" alt="imagen 3" /></a>
+                <a href="#"><img src="./img/4.png" alt="imagen 4" /></a>
+                <a href="#"><img src="./img/5.png" alt="imagen 5" /></a>
+                <a href="#"><img src="./img/6.png" alt="imagen 6" /></a>
+                <a href="#"><img src="./img/7.png" alt="imagen 7" /></a>
+              </div>
+            </div>
+          </div>
+
+          <button role="button" id="flecha-derecha" class="flecha-derecha">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
         </div>
       </div>
     </main>
